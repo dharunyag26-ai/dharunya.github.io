@@ -1,0 +1,54 @@
+# Site Settings
+title: "Dharunya Gowthaman"
+description: "B.A. LL.B (Hons) | Law Student | Legal Researcher"
+email: dharunyagowthaman26@gmail.com
+phone: "9488915757"
+
+# Base URL (IMPORTANT)
+# If your repo name is: resume-website
+# Then baseurl should be: "/resume-website"
+# If using custom domain, keep it ""
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Author Information
+author:
+  name: "Dharunya Gowthaman"
+  bio: "Law student at SASTRA Deemed University with strong internship experience under Senior Advocates and Hon’ble Judges."
+  location: "India"
+
+# Social Links (Add later if needed)
+social:
+  linkedin: ""
+  github: ""
+  twitter: ""
+
+# Build Settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO Settings
+lang: en
+timezone: Asia/Kolkata
+
+# Navigation (Optional if using layouts)
+navigation:
+  - title: About
+    url: "#about"
+  - title: Education
+    url: "#education"
+  - title: Experience
+    url: "#experience"
+  - title: Publications
+    url: "#publications"
+  - title: Contact
+    url: "#contact"
+
+# Exclude files from build
+exclude:
+  - node_modules
+  - vendor
+  - README.md
